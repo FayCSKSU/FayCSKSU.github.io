@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Website - Contact</title>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Contact Me</h1>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main" id="top">
+
+    <h2>Get in Touch</h2>
+    <p>Fill out the form below or email me directly.</p>
+
+    <form action="mailto:johndoe@example.com" method="POST" enctype="text/plain">
+
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true" /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="your@email.com" required aria-required="true" /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required aria-required="true"></textarea><br /><br />
+
+      <button type="submit">Send Message</button>
+
+    </form>
+
+    <p>Or email me directly: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+
+    <a href="#top">Back to Top</a>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 John Doe. CSC457 - Internet Technologies.</p>
+  </footer>
+
+</body>
+</html>
