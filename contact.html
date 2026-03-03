@@ -2,50 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My Website - Contact</title>
+  <title>Fay Altheeb - Contact</title>
 </head>
 <body>
 
   <header role="banner">
-    <h1>Contact Me</h1>
+    <h1>Fay Altheeb - Contact</h1>
     <nav role="navigation" aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <a href="index.html">Home</a> |
+      <a href="cv.html">CV</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main role="main" id="top">
 
-    <h2>Get in Touch</h2>
-    <p>Fill out the form below or email me directly.</p>
+     <article>
+  <h2>Contact Me</h2>
+  <p>If you’d like to get in touch, please fill out the form below or email me directly: 
+     <a href="mailto:fay1altheeb@gmaile.com">fay1altheeb@gmaile.com</a>
+  </p>
 
-    <form action="mailto:johndoe@example.com" method="POST" enctype="text/plain">
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
 
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true" /><br /><br />
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
 
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" placeholder="your@email.com" required aria-required="true" /><br /><br />
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="6" cols="40" required></textarea><br><br>
 
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required aria-required="true"></textarea><br /><br />
+    <input type="submit" value="Send Message">
+  </form>
 
-      <button type="submit">Send Message</button>
+  <br>
+  <a href="#top">Back to Top</a>
+    </article>
+      <br>
+      <a href="#top">Back to Top</a>
 
-    </form>
-
-    <p>Or email me directly: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
-
-    <a href="#top">Back to Top</a>
+    </article>
 
   </main>
 
   <footer role="contentinfo">
-    <p>&copy; 2025 John Doe. CSC457 - Internet Technologies.</p>
+    <p>&copy; 2026 Fay Altheeb. CSC457 - Internet Technologies.</p>
   </footer>
 
 </body>
